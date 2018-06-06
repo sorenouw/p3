@@ -1,0 +1,81 @@
+/*----- Header -----*/
+
+header {
+  height: 60px;
+  z-index: 20;
+}
+h1{
+  float: left;
+}
+#myBtn{
+float: right;
+margin: 5px 5px 5px 5px;
+height: 80%;
+border-radius: 6px;
+background-color: #3cb0fd;
+color: white;
+border: 0;
+cursor: pointer;
+}
+#myBtn:hover{
+  background-color: #3498db;
+}
+
+/*----- Map-----*/
+#map {
+  height: calc(100% - 144px);
+  width: 100%;
+}
+/*----- Canvas -----*/
+#canvas-sign {
+    border: solid 2px #45505b;
+    background-color: white;
+    height: 150px;
+    width: 99%;
+}
+
+/*----- Modal-----*/
+#myModal_2{
+  text-align: center;;
+}
+.station_btn {
+  margin-bottom: 15px;
+}
+.station_btn button{
+  padding: 5px 10px 5px 10px;
+}
+
+/*----- Footer -----*/
+footer {
+  height: 62px;
+  z-index: 10;
+}
+.chrono{
+  text-align: center;
+  height: 100%;
+}
+#chrono_off{
+
+}
+#chrono_on{
+  display: none;
+  justify-content: space-between;
+  align-content: flex-end;
+  height: 7  0px;
+}
+h3 span{
+  margin-left: 5px;
+}
+
+/*----- Media Queries -----*/
+@media all and (max-width: 600px) {
+  h1 span{
+    display: none;
+  }
+  #map {
+    height: calc(100% - 164px);
+  }
+  h3{
+    font-size: 16px;
+  }
+}

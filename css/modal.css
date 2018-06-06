@@ -1,0 +1,68 @@
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 50px;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    animation-name: animatetop;
+    animation-duration: 0.6s
+}
+
+/* Modal Header */
+.modal-header {
+    padding: 2px 16px;
+    background-color: #3cb0fd;
+    color: white;
+}
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #3cb0fd;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+.modal-station{
+  position: relative;
+  background-color: #fefefe;
+  margin-left: 50px;
+  margin-top: 100px;
+  border: 1px solid #888;
+  width: 300px;
+  border-radius: 5px;
+  padding: 3px 3px 3px 3px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+#station_booking{
+  display: none;
+}
+#booking_submit{
+  display: none;
+}
+/* Add Animation */
+@keyframes animatetop {
+    from {top: -400px; opacity: 0}
+    to {top: 50px; opacity: 1}
+}

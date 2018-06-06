@@ -1,0 +1,21 @@
+.button_style{
+  margin: 5px 5px 5px 5px;
+  border-radius: 6px;
+  background-color: #3cb0fd;
+  color: white;
+  border: 0;
+  cursor: pointer;
+}
+
+.station_name{
+  color: #3cb0fd;
+}
+
+.station_address{
+  color: #3cb0fd;
+  font-style: bold;
+}
+.station_bike{
+  color: #3cb0fd;
+  font-style: bold;
+}
